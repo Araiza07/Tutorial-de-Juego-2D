@@ -4,22 +4,22 @@ using UnityEngine;
 
 public class JohnMovement : MonoBehaviour
 {
-    // public float Speed;
-    // public float JumpForce;
-    // public GameObject BulletPrefab;
+    public float Speed;
+    public float JumpForce;
+    public GameObject BulletPrefab;
 
-    // private Rigidbody2D Rigidbody2D;
-    // private Animator Animator;
-    // private float Horizontal;
-    // private bool Grounded;
-    // private float LastShoot;
-    // private int Health = 5;
+    private Rigidbody2D Rigidbody2D;
+    private Animator Animator;
+    private float Horizontal;
+    private bool Grounded;
+    private float LastShoot;
+    private int Health = 5;
 
-    // private void Start()
-    // {
-    //     Rigidbody2D = GetComponent<Rigidbody2D>();
-    //     Animator = GetComponent<Animator>();
-    // }
+    private void Start()
+    {
+        Rigidbody2D = GetComponent<Rigidbody2D>();
+        Animator = GetComponent<Animator>();
+    }
 
     private void Update()
     {
